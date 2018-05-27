@@ -1,0 +1,31 @@
+Hi Alon,
+
+I would like to give you a home assignment in order to test your self-learning & programming skills
+
+Here it is:
+
+All should be implemented in Python
+
+1.implement in Python a function that downloads the following .json file from a storage server (s3)  to your local machine. Save it to your machine as ‘einat_world_bank.json'
+url: http://a360ci.s3.amazonaws.com/Jmx/einat_world_bank.json
+
+2. Implement in Python a function that reads the einat_world_bank.json file from your local machine  and check/validate that the file contain the following value:  090224b0817be218_1_0
+
+3. Implement in Python and Selenium (any kind of Selenium framework) an E2E / UI automation program that simulate real user and do the following:
+A. Open a web browser (any web browser type – Chrome/Firefox you choice)
+B. go to url: http://jsonviewer.stack.hu/
+C. add into the main text field all the text from the ‘einat_world_bank.json’ file.
+D. Click on the ‘Format’ button on the upper toolbar.
+E. validate that the web browser contains the value ‘090224b0817be218_1_0’
+F. Click on the ‘viewer’ button(tab)
+G. clicking on the viewer button should cause to an error message with the following text ‘Invalid JSON variable’.    Your task is that the script will check that the system raised this error message (it is the expected behaviour)
+
+Note:
+The due date for this examiner is by this Monday morning 10am.
+By then, please send me a zip file with the code and other attachments if you have any (for example: screenshots, video, logs etc).
+When you are sending your mail please notify me on Whatsapp because our mail service might block your mail.
+Add to your mail also a link to the youtube playlist
+Do not publish this task online or among friends.
+If you have any question let me know via whatsapp.
+
+Good luck !
